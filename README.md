@@ -15,4 +15,9 @@
   **How do you do it?** cp sam.txt mike.txt
    the file sam.txt is copied to a new file called mike.txt. 
 
+ #  | Command |  What    | Why      |   How
+ ---| ------- | -------- | -------- |-------- 
+  4 | pwd     |Print current work directory| to check if you are in current directory or not | pwd
+
+
 
