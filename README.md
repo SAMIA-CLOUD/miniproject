@@ -13,3 +13,6 @@
 	Stands for copy. cp is a command is used for copying files and directories.
 
 	Usage: cp foo bar
+
+4. **pwd**:
+	Stands for Print work directory. The pwd command writes the full pathname of the current working directory to the standard output.
