@@ -8,3 +8,8 @@
 	This command is used to obtain a repository from an existing URL.
 
 	Usage: git clone [url]
+
+3. **cp**:
+	Stands for copy. cp is a command is used for copying files and directories.
+
+	Usage: cp foo bar
