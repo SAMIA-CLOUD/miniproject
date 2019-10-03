@@ -9,10 +9,5 @@
 
 	Usage: git clone [url]
 
-3. **cp**:
-	Stands for copy. cp is a command is used for copying files and directories.
-
-	Usage: cp foo bar
-
-4. **pwd**:
-	Stands for Print work directory. The pwd command writes the full pathname of the current working directory to the standard output.
+3. **Fork**:
+	A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Mac Windows Linux All. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
