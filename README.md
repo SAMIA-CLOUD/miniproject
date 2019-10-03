@@ -8,3 +8,11 @@ Command Name: **mkdir**
 **What is it?** Create the DIRECTORY(ies),if they do not already exist. 
 **Why do you do it?** It is used to create new directories. A directory, referred to as a folder in some operating systems, appears to the user as a container for other directories and files
 **How do you do it?** mkdir linuxCommands
+
+* Command Name: **cp** 
+  **What is it?** is a command-line utility for copying files and directories. The cp command will also create the new file as part of the operation. 
+  **Why do you do it?** Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+  **How do you do it?** cp sam.txt mike.txt
+   the file sam.txt is copied to a new file called mike.txt. 
+
+
