@@ -24,7 +24,9 @@
    * **What is it?** : moves files or directories from one place to another. 
    * **Why do you do it?** It supports moving single files, multiple files and directories. It can prompt before overwriting and has an option to only move files that are new than the destination.
    * **How do you do it?** pass the name of the file and then the directory. mv foo.txt bar.
-   
+   ![GitHub Logo](/images/mv.png)
+	Format: ![Alt Text](url)
+
 
 
  
