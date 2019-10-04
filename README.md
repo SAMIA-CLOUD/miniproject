@@ -13,10 +13,15 @@
   **What is it?** is a command-line utility for copying files and directories. The cp command will also create the new file as part of the operation. 
   **Why do you do it?** Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
   **How do you do it?** cp sam.txt mike.txt
-   the file sam.txt is copied to a new file called mike.txt. 
+   the file sam.txt is copied to a new file called mike.txt.
 
- - | #  | Command |  What    | Why      |   How
- - | 4 | pwd     |Print current work directory| to check if you are in current directory or not | pwd
+1. Command Name: **pwd** 
+**What is it?** : Print current work directory.
+**Why do you do it?** to check if you are in current directory or not.
+**How do you do it?** pwd *simple write pwd and it will print the current directory *
 
+
+
+ 
 
 
