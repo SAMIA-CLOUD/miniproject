@@ -26,9 +26,9 @@
    * **How do you do it?** pass the name of the file and then the directory. mv foo.txt bar.
    ![GitHub Logo](/images/mv.png)
 1. Command Name: **rm** 
-   * **What is it?** : rm stands for *remove* as the name suggests rm command 
+   * **What is it?** : rm stands for *remove* as the name suggests.
    * **Why do you do it?** it is used to delete or remove files and directory.
-   * **How do you do it?** rm deletes the file specified after options are added. Users can use a full path or a relative file path to specify the files to delete. rm foo
+   * **How do you do it?** rm deletes the file specified after options are added. Users can use a full path or a relative file path to specify the files to delete. Example: rm foo *deletes the file "foo" in the directory the user is currently in.*
 
 
 
