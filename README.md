@@ -20,6 +20,11 @@
    * **Why do you do it?** to check if you are in current directory or not.
    * **How do you do it?** pwd *simple write pwd and it will print the current directory*
 
+1. Command Name: The **mv** command is a command line utility. 
+   * **What is it?** : moves files or directories from one place to another. 
+   * **Why do you do it?** It supports moving single files, multiple files and directories. It can prompt before overwriting and has an option to only move files that are new than the destination.
+   * **How do you do it?** pass the name of the file and then the directory. mv foo.txt bar.
+   
 
 
  
