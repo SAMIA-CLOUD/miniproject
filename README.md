@@ -16,9 +16,9 @@
    the file sam.txt is copied to a new file called mike.txt.
 
 1. Command Name: **pwd** 
-**What is it?** : Print current work directory.
-**Why do you do it?** to check if you are in current directory or not.
-**How do you do it?** pwd *simple write pwd and it will print the current directory *
+   * **What is it?** : Print current work directory.
+   * **Why do you do it?** to check if you are in current directory or not.
+   * **How do you do it?** pwd *simple write pwd and it will print the current directory*
 
 
 
