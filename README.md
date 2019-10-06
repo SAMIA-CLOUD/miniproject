@@ -32,4 +32,19 @@
 	If you want to delete a remote branch, add the "-r" flag in addition to "-d".
 
 	<new-branch>
-	Create a new local branch based on your currently checked out branch. If you also provide a SHA-1 hash of a specific revision, your new branch will use that commit as its starting point.
+	Create a new local branch based on your currently checked out branch. If you also provide a SHA-1 hash of a specific revision, your new branch will use that commit as its starting point
+
+5. **Commit**:
+	The git commit command captures a snapshot of the project's currently staged changes.
+	The "commit" command is used to save your changes to the local repository.
+	A commit is not automatically transferred to the remote server. Using the "git commit" command only saves a new commit object in the local Git repository. Exchanging commits has to be performed manually and explicitly (with the "git fetch", "git pull", and "git push" commands).
+
+	Important Options
+	-m <message>
+	Sets the commit's message. Make sure to provide a concise description that helps your teammates (and yourself) understand what happened.
+
+	-a
+	Includes all currently changed files in this commit. Keep in mind, however, that untracked (new) files are not included.
+
+	--amend
+	Rewrites the very last commit with any currently staged changes and/or a new commit message. Git will rewrite the last commit and effectively replace it with the amended one. Note that such a rewriting of commits should only be performed on commits that have not been pushed to a remote repository, yet.
