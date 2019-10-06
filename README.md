@@ -53,3 +53,26 @@
 	Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
 	The "merge" command is used to integrate changes from another branch.
 	The target of this integration (i.e. the branch that receives changes) is always the currently checked out HEAD branch.
+
+7. **Checkout**:
+	The git checkout command lets you navigate between the branches created by git branch . Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
+	
+	The "checkout" command can switch the currently active branch - but it can also be used to restore files.
+	The most common use case for "checkout" is when you want to switch to a different branch, making it the new HEAD branch.
+
+	Another use case for "checkout" is when you want to restore a historic version of a specific file. Thereby, you can reset single files to earlier revisions - while keeping the rest of the project untouched.
+
+	Important Options
+	<branch-name>
+	The name of a local branch that you want to switch to. By specifying the name of a local branch, you will switch to this branch and make it the current "HEAD" branch.
+
+	-b <new-branch>
+	Creates a new local branch and directly switches to it. This can be used as a shortcut instead of the following two commands:
+	git branch <new-branch-name>
+	git checkout <new-branch-name>.
+
+	-b <new-branch> --track <remote-branch>
+	Creates a new local branch - and sets up an "upstream" configuration. This way, the new local branch has a tracking relationship with its remote counterpart. This allows you to more easily see when the two aren't in sync (i.e. when unpushed commits in the local branch or unpulled commits in the remote exist).
+
+	<file-path> <commit-hash>
+	Restores a historic revision of a given file. By providing HEAD as the revision, you can restore the last committed version of a file - effectively undoing any local changes that happened since then. If you want to restore a specific earlier revision you can provide that revision's SHA-1 hash.
