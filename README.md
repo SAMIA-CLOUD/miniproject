@@ -76,3 +76,26 @@
 
 	<file-path> <commit-hash>
 	Restores a historic revision of a given file. By providing HEAD as the revision, you can restore the last committed version of a file - effectively undoing any local changes that happened since then. If you want to restore a specific earlier revision you can provide that revision's SHA-1 hash.
+
+8. **Push**:
+	The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+
+	The "push" command is used to publish new local commits on a remote server.
+
+	The source (i.e. which branch the data should be uploaded from) is always the currently checked out HEAD branch.
+
+	The target (i.e. which branch the data should be uploaded to) can be specified in the command's options. These options can be omitted, however, if a tracking relationship with a remote branch is set up.
+
+	Important Options
+
+	--all
+	Pushes all local branches.
+
+	--tags
+	Pushes all local tags.
+
+	--delete
+	Deletes the specified remote branch.
+
+	-u
+	Creates an upstream tracking connection and is especially useful when publishing a local branch on a remote for the first time.
