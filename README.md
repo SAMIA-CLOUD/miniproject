@@ -12,7 +12,7 @@
 
 	Usage: git clone [url]
 
-![Clone](/images/clone.png)
+![Clone](/images/clone.PNG)
 
 3. **Fork**:
 	
