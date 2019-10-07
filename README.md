@@ -20,9 +20,11 @@
 
 4. **Branch**:
 	
-	The "branch" command helps you create, delete, and list branches. It's the go-to command when it comes to managing any aspect of your branches - no matter if in your local repository or on your remotes.
+	The "branch" command helps you create, delete, and list branches. It's the go-to command when it comes to managing any aspect of your branches - no matter if in your local repository or on your remotes. 
 
-![Branch](/images/branch.PNG)
+![Branch](/images/branch.png)
+
+nvjebjirib
 
 	**Important Options**
 	
