@@ -12,6 +12,8 @@
 
 	Usage: git clone [url]
 
+![Clone](/images/clone.png)
+
 3. **Fork**:
 	
 	A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Mac Windows Linux All. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
