@@ -22,7 +22,9 @@
 	
 	The "branch" command helps you create, delete, and list branches. It's the go-to command when it comes to managing any aspect of your branches - no matter if in your local repository or on your remotes.
 
-	Important Options
+![Branch](/images/branch.PNG)
+
+	**Important Options**
 	
 	-v -a
 	
@@ -54,7 +56,7 @@
 	
 	A commit is not automatically transferred to the remote server. Using the "git commit" command only saves a new commit object in the local Git repository. Exchanging commits has to be performed manually and explicitly (with the "git fetch", "git pull", and "git push" commands).
 
-	Important Options
+	**Important Options**
 	
 	-m <message>
 	
@@ -84,7 +86,7 @@
 
 	Another use case for "checkout" is when you want to restore a historic version of a specific file. Thereby, you can reset single files to earlier revisions - while keeping the rest of the project untouched.
 
-	Important Options
+	**Important Options**
 	
 	<branch-name>
 	
@@ -116,7 +118,7 @@
 
 	The target (i.e. which branch the data should be uploaded to) can be specified in the command's options. These options can be omitted, however, if a tracking relationship with a remote branch is set up.
 
-	Important Options
+	**Important Options**
 
 	--all
 	
@@ -142,7 +144,7 @@
 
 	The target (which branch the data should be integrated into) is always the currently checked out HEAD branch. By default, pull uses a merge operation, but it can also be configured to use rebase instead.
 
-	Important Options
+	**Important Options**
 	
 	--no-ff
 
