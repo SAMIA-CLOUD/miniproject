@@ -29,7 +29,7 @@
    * **What is it?** : rm stands for *remove* as the name suggests.
    * **Why do you do it?** it is used to delete or remove files and directory.
    * **How do you do it?** rm deletes the file specified after options are added. Users can use a full path or a relative file path to specify the files to delete. Example: rm foo *deletes the file "foo" in the directory the user is currently in.*
-   1. Command Name: **history** 
+1. Command Name: **history** 
    * **What is it?** : rhistory command is used to view the previously executed command.
    * **Why do you do it?** to get info about command executed by user.
    * **How do you do it?** Executing simple history command from terminal will show you a complete list of last executed commands with line numbers.
