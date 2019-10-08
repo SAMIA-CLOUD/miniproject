@@ -83,6 +83,11 @@
 	
 	The target of this integration (i.e. the branch that receives changes) is always the currently checked out HEAD branch.
 
+	![Merge](/images/merge.png)
+
+	![Mergeexample](/images/mergeex.png)
+
+
 7. **Checkout**:
 	
 	The git checkout command lets you navigate between the branches created by git branch . Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch.
