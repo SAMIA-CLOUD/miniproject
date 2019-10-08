@@ -73,6 +73,9 @@
 	
 	Rewrites the very last commit with any currently staged changes and/or a new commit message. Git will rewrite the last commit and effectively replace it with the amended one. Note that such a rewriting of commits should only be performed on commits that have not been pushed to a remote repository, yet.
 
+	![Committypes](/images/committypes.PNG)
+
+
 6. **Merge**:
 	
 	Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
