@@ -49,7 +49,7 @@
    * **What is it?** : When typing in the Linux command line, just use **TAB** to autocomplete commands, filenames or folder names. Simply start typing. When you're ready press Tab
    * **Why do you do it?** Use the Tab key to autocomplete the names of directories and files while in the command line
    * **How do you do it?** 
-         ![GitHub Logo](/images/tab.png)
+   ![GitHub Logo](/images/tab.png)
 1. Command Name: **up and down arrow for history** 
    * **What is it?** : get into your terminal in hit the up/down arrows, you will cycle through all of the git commands in your history
    * **Why do you do it?** This is much easier than history | grep foo.
