@@ -98,6 +98,8 @@
 
 	Another use case for "checkout" is when you want to restore a historic version of a specific file. Thereby, you can reset single files to earlier revisions - while keeping the rest of the project untouched.
 
+	![Checkout](/images/checkout.png)
+
 	**Important Options**
 	
 	<branch-name>
