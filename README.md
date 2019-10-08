@@ -7,7 +7,7 @@
 1. Command Name: **mkdir**
    * **What is it?** Create the DIRECTORY(ies),if they do not already exist. 
    * **Why do you do it?** It is used to create new directories. A directory, referred to as a folder in some operating systems, appears to the user as a container for other directories and files
-   * **How do you do it?** mkdir linuxCommands
+   * **How do you do it?** mkdir linux Commands
 
 1. Command Name: **cp** 
     * **What is it?** is a command-line utility for copying files and directories. The cp command will also create the new file as part of the operation. 
@@ -30,7 +30,7 @@
    * **Why do you do it?** it is used to delete or remove files and directory.
    * **How do you do it?** rm deletes the file specified after options are added. Users can use a full path or a relative file path to specify the files to delete. Example: rm foo *deletes the file "foo" in the directory the user is currently in.*
 1. Command Name: **history** 
-   * **What is it?** : rhistory command is used to view the previously executed command.
+   * **What is it?** : history command is used to view the previously executed command.
    * **Why do you do it?** to get info about command executed by user.
    * **How do you do it?** Executing simple history command from terminal will show you a complete list of last executed commands with line numbers.
 
