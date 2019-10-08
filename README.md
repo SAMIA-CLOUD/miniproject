@@ -33,6 +33,28 @@
    * **What is it?** : history command is used to view the previously executed command.
    * **Why do you do it?** to get info about command executed by user.
    * **How do you do it?** Executing simple history command from terminal will show you a complete list of last executed commands with line numbers.
+1. Command Name: **Home directory and ~** 
+   * **What is it?** : A *home directory*, also called a login directory, is the directory on Unix-like operating systems that serves as the repository for a user's personal files, directories and programs. It is also the directory that a user is first in after logging into the system.
+   * **Why do you do it?** To navigate to your home director.
+   * **How do you do it?** 
+       * The simplest of these is to use the *cd*.
+       * a user could also return to its home directory by using the tilde as an argument to 
+       *cd ~*.
+       * Thus a third way for a user to return to its home directory is to use $HOME as an argument to cd, i.e., *cd $HOME*
+1. Command Name: **find** 
+   * **What is it?** : It supports searching by file, folder, name, creation date, modification date, owner and permissions
+   * **Why do you do it?** It can be used to find files and directories and perform subsequent operations on them.
+   * **How do you do it?**
+        ![GitHub Logo](/images/find.png)
+1. Command Name: **tab key** 
+   * **What is it?** : When typing in the Linux command line, just use **TAB** to autocomplete commands, filenames or folder names. Simply start typing. When you're ready press Tab
+   * **Why do you do it?** Use the Tab key to autocomplete the names of directories and files while in the command line
+   * **How do you do it?** 
+        ![GitHub Logo](/images/tab.png)
+
+
+
+
 
 
 
