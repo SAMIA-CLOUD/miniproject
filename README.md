@@ -132,7 +132,7 @@
 
 	The target (i.e. which branch the data should be uploaded to) can be specified in the command's options. These options can be omitted, however, if a tracking relationship with a remote branch is set up.
 
-	![Push](/images/push.PNG)
+	![Push](/images/push.png)
 
 	**Important Options**
 
