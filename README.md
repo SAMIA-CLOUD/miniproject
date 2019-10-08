@@ -26,7 +26,7 @@
 
 	**Important Options**
 	
-	-v -a
+	* -v -a
 	
 	Provides more information about all your branches. Listing your branches, by default, will only show your local branches' names.
 
@@ -34,11 +34,11 @@
 	
 	Adding the "-v" flag will make the command more "verbose" and include SHA-1 hashes as well as commit subjects of the latest commits on your branches.
 
-	--no-merged
+	* --no-merged
 
 	Returns all branches that have not been merged into your current HEAD branch. This helps you understand which changes haven't been integrated into your current working context, yet. Note that you can also request all branches that already have been merged in your current HEAD by using the "--merged" option instead.
 
-	-d <branch>
+	* -d [branch]
 	
 	Deletes a specified branch.
 
@@ -46,7 +46,7 @@
 
 	If you want to delete a remote branch, add the "-r" flag in addition to "-d".
 
-	<new-branch>
+	* [new-branch]
 	
 	Create a new local branch based on your currently checked out branch. If you also provide a SHA-1 hash of a specific revision, your new branch will use that commit as its starting point.
 
@@ -61,15 +61,15 @@
 
 	**Important Options**
 	
-	-m <message>
+	* -m [message]
 	
 	Sets the commit's message. Make sure to provide a concise description that helps your teammates (and yourself) understand what happened.
 
-	-a
+	* -a
 	
 	Includes all currently changed files in this commit. Keep in mind, however, that untracked (new) files are not included.
 
-	--amend
+	* --amend
 	
 	Rewrites the very last commit with any currently staged changes and/or a new commit message. Git will rewrite the last commit and effectively replace it with the amended one. Note that such a rewriting of commits should only be performed on commits that have not been pushed to a remote repository, yet.
 
@@ -102,23 +102,23 @@
 
 	**Important Options**
 	
-	<branch-name>
+	* [branch-name]
 	
 	The name of a local branch that you want to switch to. By specifying the name of a local branch, you will switch to this branch and make it the current "HEAD" branch.
 
-	-b <new-branch>
+	* -b [new-branch]
 	
 	Creates a new local branch and directly switches to it. This can be used as a shortcut instead of the following two commands:
 	
-	git branch <new-branch-name>
+	git branch [new-branch-name]
 	
-	git checkout <new-branch-name>.
+	git checkout [new-branch-name]
 
-	-b <new-branch> --track <remote-branch>
+	* -b [new-branch] --track [remote-branch]
 	
 	Creates a new local branch - and sets up an "upstream" configuration. This way, the new local branch has a tracking relationship with its remote counterpart. This allows you to more easily see when the two aren't in sync (i.e. when unpushed commits in the local branch or unpulled commits in the remote exist).
 
-	<file-path> <commit-hash>
+	* [file-path] [commit-hash]
 	
 	Restores a historic revision of a given file. By providing HEAD as the revision, you can restore the last committed version of a file - effectively undoing any local changes that happened since then. If you want to restore a specific earlier revision you can provide that revision's SHA-1 hash.
 
@@ -136,19 +136,19 @@
 
 	**Important Options**
 
-	--all
+	* --all
 	
 	Pushes all local branches.
 
-	--tags
+	* --tags
 	
 	Pushes all local tags.
 
-	--delete
+	* --delete
 	
 	Deletes the specified remote branch.
 
-	-u
+	* -u
 	
 	Creates an upstream tracking connection and is especially useful when publishing a local branch on a remote for the first time.
 
@@ -162,11 +162,11 @@
 
 	**Important Options**
 	
-	--no-ff
+	* --no-ff
 
 	Creates a merge commit even when a fast-forward would be possible.
 
-	--rebase
+	* --rebase
 
 	Integrates changes using rebase instead of merge.
 
