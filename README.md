@@ -80,10 +80,11 @@
 	
 	Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
 	The "merge" command is used to integrate changes from another branch.
+
+	![Merge](/images/merge.png)
 	
 	The target of this integration (i.e. the branch that receives changes) is always the currently checked out HEAD branch.
 
-	![Merge](/images/merge.png)
 
 	![Mergeexample](/images/mergeex.png)
 
