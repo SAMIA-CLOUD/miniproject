@@ -46,7 +46,9 @@
    * **What is it?** : It supports searching by file, folder, name, creation date, modification date, owner and permissions
    * **Why do you do it?** It can be used to find files and directories and perform subsequent operations on them.
    * **How do you do it?**
+   
   ![GitHub Logo](/images/find.png)
+  
    * **What is it?** : When typing in the Linux command line, just use **TAB** to autocomplete commands, filenames or folder names. Simply start typing. When you're ready press Tab
    * **Why do you do it?** Use the Tab key to autocomplete the names of directories and files while in the command line
    * **How do you do it?** 
