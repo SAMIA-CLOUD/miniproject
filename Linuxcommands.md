@@ -34,7 +34,7 @@
    * **What is it?** : history command is used to view the previously executed command.
    * **Why do you do it?** to get info about command executed by user.
    * **How do you do it?** Executing simple history command from terminal will show you a complete list of last executed commands with line numbers.
-1. Command Name: **Home directory and ~** 
+1. Command Name: **Home directory and "~"** 
    * **What is it?** : A *home directory*, also called a login directory, is the directory on Unix-like operating systems that serves as the repository for a user's personal files, directories and programs. It is also the directory that a user is first in after logging into the system.
    * **Why do you do it?** To navigate to your home director.
    * **How do you do it?** 
