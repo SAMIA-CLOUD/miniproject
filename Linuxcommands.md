@@ -52,6 +52,7 @@
    * **What is it?** : When typing in the Linux command line, just use **TAB** to autocomplete commands, filenames or folder names. Simply start typing. When you're ready press Tab
    * **Why do you do it?** Use the Tab key to autocomplete the names of directories and files while in the command line
    * **How do you do it?** 
+   
    ![GitHub Logo](/images/tab.png)
    
 1. Command Name: **up and down arrow for history** 
