@@ -16,3 +16,7 @@
 	Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes.
 
 	Factory Method defines a method, which should be used for creating objects instead of direct constructor call (_new_ operator). Subclasses can override this method to change the class of objects that will be created.
+
+12. **Decorator**
+
+	A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
