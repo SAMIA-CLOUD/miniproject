@@ -29,5 +29,5 @@
         ![GitHub Logo](/images/static.png)
 1.  **Property / Attribute**
       * In python, everything is an object. And every object has attributes and methods or functions. Attributes are described by data variables for example like name, age, height etc.
-       ![GitHub Logo](/images/proerty.png)
+       ![GitHub Logo](/images/ww.png)
 
