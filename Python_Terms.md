@@ -26,4 +26,8 @@
       ![GitHub Logo](/images/object.png)
 1.  **Static**
       * Static methods in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class.This means that a static method can be called without an object for that class. This also means that static methods cannot modify the state of an object as they are not bound to it. We created in claculator in miniproject 1 many static methods such as Addition etc.
-      *  ![GitHub Logo](/images/static.png)
+        ![GitHub Logo](/images/static.png)
+1.  **Property / Attribute**
+      * In python, everything is an object. And every object has attributes and methods or functions. Attributes are described by data variables for example like name, age, height etc.
+       [GitHub Logo](/images/proerty.png)
+
