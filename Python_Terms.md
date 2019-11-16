@@ -30,4 +30,8 @@
 1.  **Property / Attribute**
       * In python, everything is an object. And every object has attributes and methods or functions. Attributes are described by data variables for example like name, age, height etc.
        ![GitHub Logo](/images/ww.png)
+1.  **Method**
+      * It's a function which is a member of a class: A method is a function that takes a class instance as its first parameter. Methods are members of classes.
+        ![GitHub Logo](/images/method.png)
+        
 
