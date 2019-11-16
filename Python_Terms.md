@@ -20,3 +20,19 @@
 12. **Decorator**
 
 	A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+13. **Extend Class**
+
+	Python supports a feature called inheritance. By using inheritance, you can obtain the features you want from a parent class when creating a child class.
+
+	Parent classes are normally supersets of something. For example, you might create a parent class named Car and then create child classes of various car types around it.
+
+	In this case, you build a parent class named Animal and use it to define a child class named Chicken. Of course, you can easily add other child classes after you have Animal in place, such as a Gorilla class. However, for this example, you build just the one parent and one child class.
+
+	The Animal class tracks three characteristics: Name, Age, and Type. A production application would probably track more characteristics, but these characteristics do everything needed for this example. The code also includes the required accessors for each of the characteristics. The __str__() method completes the picture by printing a simple message stating the animal characteristics.
+
+	The Chicken class inherits from the Animal class. Notice the use of Animal in parentheses after the Chicken class name. This addition tells Python that Chicken is a kind of Animal, something that will inherit the characteristics of Animal.
+
+	Someone might try something funny, such as setting her chicken up as a gorilla. With this in mind, the Chicken class also overrides the SetType() setter. If someone tries to change the Chicken type, that user gets a message rather than the attempted change. Normally, you handle this sort of problem by using an exception, but the message works better for this example by making the coding technique clearer.
+
+	Finally, the Chicken class adds a new feature, MakeSound(). Whenever someone wants to hear the sound a chicken makes, he can call MakeSound() to at least see it printed on the screen.
