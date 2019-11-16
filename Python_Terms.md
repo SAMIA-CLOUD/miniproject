@@ -10,3 +10,4 @@
 1. **The DRY Principle: Don't Repeat Yourself**
      * DRY stand for "Don't Repeat Yourself," a basic principle of software development aimed at reducing repetition of information. The DRY principle is stated as, "Every piece of knowledge or logic must have a single, unambiguous representation within a system."
 1. **Design Patterns from Gang of Four**
+      de
