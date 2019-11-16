@@ -23,5 +23,4 @@
       *  A class is a way of organizing information about a type of data so a programmer can reuse elements when making multiple instances of that data type—for example, if a programmer wanted to make three instances of Car, maybe a BMW, a Ferrari, and a Ford instance. The Car class would allow the programmer to store similar information that is unique to each car (they are different models, and maybe different colors, etc.) and associate the appropriate information with each car.
 1.  **Object**
      * we can create many objects from a class. An object is also called an instance of a class and the process of creating this object is called instantiation.
-     * ![GitHub Logo](/images/object.png)
-     
+      ![GitHub Logo](/images/object.png)
