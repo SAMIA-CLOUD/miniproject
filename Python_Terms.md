@@ -24,3 +24,6 @@
 1.  **Object**
      * we can create many objects from a class. An object is also called an instance of a class and the process of creating this object is called instantiation.
       ![GitHub Logo](/images/object.png)
+1.  **Static**
+      * Static methods in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class.This means that a static method can be called without an object for that class. This also means that static methods cannot modify the state of an object as they are not bound to it. Let’s see how we can create static methods in Python.
+      *  ![GitHub Logo](/images/static.png)
