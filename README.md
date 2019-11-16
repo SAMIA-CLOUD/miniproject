@@ -6,4 +6,4 @@
 
 [Github](https://github.com/SAMIA-CLOUD/miniproject/blob/saleena/github.md)
 
-[Github](https://github.com/SAMIA-CLOUD/miniproject/blob/samia/Python_Terms.md)
+[Python Terms](https://github.com/SAMIA-CLOUD/miniproject/blob/samia/Python_Terms.md)
