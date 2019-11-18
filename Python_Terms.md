@@ -33,7 +33,6 @@
 1.  **Method**
       * It's a function which is a member of a class: A method is a function that takes a class instance as its first parameter. Methods are members of classes.
         ![GitHub Logo](/images/method.png)
-        
 
 
 9. **Exception**
@@ -46,6 +45,57 @@
 
 	Unit Testing is the first level of software testing where the smallest testable parts of a software are tested. This is used to validate that each unit of the software performs as designed. The unittest test framework is python's xUnit style framework.
 
+	White Box Testing method is used for Unit testing
+
+	**OOP concepts supported by unittest framework:**
+
+		1. **test fixture:**
+			A test fixture is used as a baseline for running tests to ensure that there is a fixed environment in which tests are run so that results are repeatable.
+
+		2. **test case:**
+			A test case is a set of conditions which is used to determine whether a system under test works correctly.
+
+		3. **test suite:**
+			Test suite is a collection of testcases that are used to test a software program to show that it has some specified set of behaviours by executing the aggregated tests together.
+
+		4. **test runner:**
+			A test runner is a component which set up the execution of tests and provides the outcome to the user.
+
+	**Basic Test Structure**
+
+		unittest defines tests by the following two ways :
+
+			* Manage test “fixtures” using code.
+
+			* test itself.
+
+	![exception_handling](/images/unittest1.png)
+
+	This is the basic test code using unittest framework, which is having a single test. This test() method will fail if TRUE is ever FALSE.
+
+	**Running Tests**
+
+	![exception_handling](/images/unittest2.png)
+
+	The last block helps to run the test by running the file through the command line.
+
+	![exception_handling](/images/unittest3.png)
+
+	Here, in the output the “.” on the first line of output means that a test passed.
+	
+	“-v” option is added in the command line while running the tests to obtain more detailed test results.
+
+	![exception_handling](/images/unittest3.png)
+
+	**Outcomes Possible**
+
+	There are three types of possible test outcomes :
+
+		* OK – This means that all the tests are passed.
+
+		* FAIL – This means that the test did not pass and an AssertionError exception is raised.
+
+		* ERROR – This means that the test raises an exception other than AssertionError.
 
 11. **Constructor**
 
