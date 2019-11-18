@@ -49,21 +49,22 @@
 
 	**OOP concepts supported by unittest framework:**
 
-		1. **test fixture:**
+	1. **test fixture:**
 			A test fixture is used as a baseline for running tests to ensure that there is a fixed environment in which tests are run so that results are repeatable.
 
-		2. **test case:**
+	2. **test case:**
 			A test case is a set of conditions which is used to determine whether a system under test works correctly.
 
-		3. **test suite:**
+	3. **test suite:**
 			Test suite is a collection of testcases that are used to test a software program to show that it has some specified set of behaviours by executing the aggregated tests together.
 
-		4. **test runner:**
+	4. **test runner:**
 			A test runner is a component which set up the execution of tests and provides the outcome to the user.
 
 	**Basic Test Structure**
 
-		unittest defines tests by the following two ways :
+		
+	unittest defines tests by the following two ways :
 
 			* Manage test “fixtures” using code.
 
@@ -99,8 +100,19 @@
 
 11. **Constructor**
 
-	A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class. Python relies on the constructor to perform tasks such as initializing (assigning values to) any instance variables that the object will need when it starts
+	A constructor is a special kind of method that Python calls when it instantiates an object using the definitions found in your class. Python relies on the constructor to perform tasks such as initializing (assigning values to) any instance variables that the object will need when it starts.
 
+	Constructors are generally used for instantiating an object.The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.In Python the __init__() method is called the constructor and is always called when an object is created.
+
+	**Syntax of constructor declaration**
+
+	![constructor](/images/constructor1.png)
+
+	**Types of constructors**
+
+	* **default constructor** :The default constructor is simple constructor which doesn’t accept any arguments.It’s definition has only one argument which is a reference to the instance being constructed.
+
+	* **parameterized constructor** :constructor with parameters is known as parameterized constructor.The parameterized constructor take its first argument as a reference to the instance being constructed known as self and the rest of the arguments are provided by the programmer.
 
 12. **Factory**
 	Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes.
