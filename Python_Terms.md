@@ -8,6 +8,7 @@
     *A given indented block must use a uniform level of indentation. E.g. if the first line of an indented block has two leading spaces, all subsequent lines in that block must lead with exactly two white spaces.
     ![GitHub Logo](/images/Python_indentation.png)
 1. **The DRY Principle: Don't Repeat Yourself**
+      * DRY stand for "Don't Repeat Yourself," a basic principle of software development aimed at reducing repetition of information. The DRY principle is stated as, "Every piece of knowledge or logic must have a single, unambiguous representation within a system."
 1. **Design Patterns from Gang of Four**
       * Everything starts with the Gang of Four (GOF). Do a quick online search if you are not familiar with the GOF.
       Design patterns are a common way of solving well known problems. 
