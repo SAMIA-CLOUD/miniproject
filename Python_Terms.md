@@ -119,17 +119,32 @@
 
 	Factory Method defines a method, which should be used for creating objects instead of direct constructor call (_new_ operator). Subclasses can override this method to change the class of objects that will be created.
 
+	The Factory module can be installed like any other pure Python module. Setuptools is supported but not required. You may also include the __Factory.py__ file directly in your project’s source tree, but you must retain the copyright notice and version and attribution information.
+
+	![factory](/images/factory.png)
+
 
 13. **Decorator**
 
 	A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
 
+	Decorators are very powerful and useful tool in Python since it allows programmers to modify the behavior of function or class. Decorators allow us to wrap another function in order to extend the behavior of wrapped function, without permanently modifying it.
+
+	In Decorators, functions are taken as the argument into another function and then called inside the wrapper function.
+
+	**Syntax for Decorator**
+
+	![decorator](/images/decorator.png)
+
+	In the above code, gfg_decorator is a callable function, will add some code on the top of some another callable function, hello_decorator function and return the wrapper function.
 
 14. **Extend Class**
 
 	Python supports a feature called inheritance. By using inheritance, you can obtain the features you want from a parent class when creating a child class.
 
 	Parent classes are normally supersets of something. For example, you might create a parent class named Car and then create child classes of various car types around it.
+
+	![class_extension](/images/class_extension.png)
 
 	In this case, you build a parent class named Animal and use it to define a child class named Chicken. Of course, you can easily add other child classes after you have Animal in place, such as a Gorilla class. However, for this example, you build just the one parent and one child class.
 
@@ -144,9 +159,38 @@
 
 15. **CSV Files**
 
-	A **C**omma-**S**eparated **V**alues file is a delimited text file that uses a comma to separate values. A CSV file stores tabular data in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas
+	CSV (Comma Separated Values) is a simple file format used to store tabular data, such as a spreadsheet or database. A CSV file stores tabular data (numbers and text) in plain text. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format.
+
+	![csv](/images/csv.png)
+
+	For working CSV files in python, there is an inbuilt module called **csv.**
+
+	**Reading a CSV file**
 
 
+	![csv](/images/csv1.png)
+
+	The output of above program looks like this:
+
+	![csv](/images/csv2.png)
+
+	Let us try to understand this piece of code.
+
+	![csv](/images/csvopen.png)
+
+	Here, we first open the CSV file in READ mode. The file object is named as csvfile. The file object is converted to csv.reader object. We save the csv.reader object as **csvreader**.
+
+	![csv](/images/csvfile.png)
+
+	**csvreader** is an iterable object. Hence, .next() method returns the current row and advances the iterator to the next row. Since the first row of our csv file contains the headers (or field names), we save them in a list called **fields**.
+
+	![csv](/images/csvrow.png)
+
+	Now, we iterate through remaining rows using a for loop. Each row is appended to a list called **rows**. If you try to print each row, one can find that row is nothing but a list containing all the field values.
+
+	![csv](/images/csvprint.png)
+
+	**csvreader.line_num** is nothing but a counter which returns the number of rows which have been iterated.
 
 16. **Reading Files**
 
