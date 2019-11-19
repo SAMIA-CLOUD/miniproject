@@ -165,6 +165,8 @@
 	![csv](/images/csv.png)
 
 	For working CSV files in python, there is an inbuilt module called **csv.**
+	
+	16. **Reading Files**
 
 	**Reading a CSV file**
 
@@ -193,7 +195,6 @@
 
 	**csvreader.line_num** is nothing but a counter which returns the number of rows which have been iterated.
 
-16. **Reading Files**
 
-	When you’re working with Python, you don’t need to import a library in order to read and write files. It’s handled natively in the language, albeit in a unique manner.
+
 
